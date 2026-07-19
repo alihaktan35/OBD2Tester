@@ -1,7 +1,7 @@
 import SwiftUI
 import AppKit
 
-private enum AppTheme: String, CaseIterable, Identifiable {
+enum AppTheme: String, CaseIterable, Identifiable {
     case light, dark
 
     var id: String { rawValue }
@@ -40,7 +40,7 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text("OBD2Tester")
                     .font(.title2.bold())
-                Text("USB OBD2 / ELM327 connection tester")
+                Text("USB OBD2 / ELM327 connection tester for macOS")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

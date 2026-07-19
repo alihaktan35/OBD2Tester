@@ -2,6 +2,9 @@ import SwiftUI
 import AppKit
 
 struct AboutView: View {
+    @AppStorage("obd2tester.theme") private var themeRaw: String = AppTheme.light.rawValue
+    private var theme: AppTheme { AppTheme(rawValue: themeRaw) ?? .light }
+
     var body: some View {
         VStack(spacing: 14) {
             Image(systemName: "car.badge.gearshape")
@@ -27,6 +30,7 @@ struct AboutView: View {
         }
         .padding(24)
         .frame(width: 260)
+        .preferredColorScheme(theme.colorScheme)
     }
 
     private func linkRow(title: String, url: String) -> some View {
