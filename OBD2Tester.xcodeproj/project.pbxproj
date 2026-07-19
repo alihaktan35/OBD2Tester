@@ -11,6 +11,7 @@
 		EC293402432140B2B2D15793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A628BFEA64B21AB7DF673 /* ContentView.swift */; };
 		953114DF03A04420908B16D9 /* SerialPortManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86312DED7A42421BB70C0A92 /* SerialPortManager.swift */; };
 		2F9242B9AD6B4FFAB44D8B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956AC9BAC3E4FD7AE371B59 /* Assets.xcassets */; };
+		9A179E8E221943D7AE42F805 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778C35E48F8498A8207AFD0 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7956AC9BAC3E4FD7AE371B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DA0B632BF949329486AF14 /* OBD2Tester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OBD2Tester.entitlements; sourceTree = "<group>"; };
 		B61E07887AE74A6C9B8D49BB /* OBD2Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBD2Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7778C35E48F8498A8207AFD0 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1BD38B98518845CBA1E97ECF /* OBD2TesterApp.swift */,
 				583A628BFEA64B21AB7DF673 /* ContentView.swift */,
+				7778C35E48F8498A8207AFD0 /* AboutView.swift */,
 				86312DED7A42421BB70C0A92 /* SerialPortManager.swift */,
 				7956AC9BAC3E4FD7AE371B59 /* Assets.xcassets */,
 				34DA0B632BF949329486AF14 /* OBD2Tester.entitlements */,
@@ -132,6 +135,7 @@
 			files = (
 				F840ABEAC6FE40F0B35114D9 /* OBD2TesterApp.swift in Sources */,
 				EC293402432140B2B2D15793 /* ContentView.swift in Sources */,
+				9A179E8E221943D7AE42F805 /* AboutView.swift in Sources */,
 				953114DF03A04420908B16D9 /* SerialPortManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,5 +7,11 @@ struct OBD2TesterApp: App {
             ContentView()
         }
         .windowResizability(.contentSize)
+
+        Window("About OBD2Tester", id: "about") {
+            AboutView()
+        }
+        .windowResizability(.contentSize)
+        .defaultPosition(.center)
     }
 }
