@@ -1,2 +1,2 @@
 # OBD2Tester
-OBD2 devices test software for macOS
+Test software for OBD2 devices on macOS
